@@ -1,0 +1,32 @@
+package beat_14;
+
+
+// Beat //
+public class Beat {
+	
+	private int 	time;
+	private String	titleName;
+	
+	
+	public int getTime() {
+		return time;
+	}
+	public void setTime(int time) {
+		this.time = time;
+	}
+	public String getTitleName() {
+		return titleName;
+	}
+	public void setTitleName(String titleName) {
+		this.titleName = titleName;
+	}
+	
+	public Beat(int time, String titleName) {
+		super();
+		this.time = time;
+		this.titleName = titleName;
+	}
+
+	
+	
+} // End - Beat

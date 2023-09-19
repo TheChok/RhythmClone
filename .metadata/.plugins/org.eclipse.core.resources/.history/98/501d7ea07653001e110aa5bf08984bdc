@@ -1,0 +1,22 @@
+package beat_3;
+
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+
+import javazoom.jl.player.Player;
+
+public class Music extends Thread {
+	
+	private Player player;
+	private boolean isLoop;
+	private File file;
+	private FileInputStream fis;
+	private BufferedInputStream bis;
+	
+	public Music() {
+		
+	}
+	
+	
+}

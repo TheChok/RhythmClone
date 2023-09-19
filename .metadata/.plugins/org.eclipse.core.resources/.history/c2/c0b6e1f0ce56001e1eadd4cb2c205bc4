@@ -1,0 +1,13 @@
+package beat_14;
+
+
+// Beat //
+public class Beat {
+	
+	private int 	time;
+	private String	titleName;
+	
+	
+	
+	
+} // End - Beat

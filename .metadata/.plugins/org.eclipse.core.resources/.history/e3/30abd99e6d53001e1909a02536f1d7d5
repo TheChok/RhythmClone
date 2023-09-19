@@ -1,0 +1,13 @@
+package beat_1;
+
+public class Main {
+	
+	
+	// main //
+	public static void main(String[] args) {
+		
+		new DynamicBeat();
+
+	} // End - main
+
+}
